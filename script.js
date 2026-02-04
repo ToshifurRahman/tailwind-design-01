@@ -51,11 +51,6 @@ function typeEffect() {
 }
 setTimeout(typeEffect, 1500);
 
-// Live Visitors
-const liveVisitors = document.getElementById("liveVisitors");
-let visitors = Math.floor(Math.random() * 50) + 100;
-liveVisitors.textContent = `${visitors} users online now`;
-
 // Animated Stats
 function animateCounter(id, target, duration = 2000) {
   const element = document.getElementById(id);
